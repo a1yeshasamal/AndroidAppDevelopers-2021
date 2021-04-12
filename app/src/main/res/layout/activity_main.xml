@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#97E8DCDC"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="363dp"
+        android:layout_height="203dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="256dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text="Enter Your Mobile Number" />
+
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="49dp"
+            android:layout_height="54dp"
+            android:layout_alignRight="@+id/tv1"
+            android:layout_alignBottom="@+id/tv1"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="60dp"
+            android:gravity="center"
+            android:text="+91" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="60dp"
+            android:ems="10"
+            android:hint="|987 654 3210"
+            android:inputType="phone" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp">
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="328dp"
+            android:layout_height="53dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="100dp"
+            android:inputType="textMultiLine"
+            android:text="You won't be able to get verified documents using your Mobile Number Authentication" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/purple_200"
+        android:shape="r"
+
+        android:text="Next" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="45dp"
+        android:gravity="center"
+        android:text="For fetching verified documents" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:backgroundTint="@color/white"
+        android:text="Continue with Aadhaar"
+        android:textColor="@color/purple_200" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/first layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="1"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="2"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="3"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="-"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/second layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="4"
+
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="5"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="6"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="space"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/third Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="7"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="8"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="9"
+                android:textColor="@color/black" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="87dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@android:drawable/ic_input_delete" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fourth layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text=","
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="0"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="73dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="."
+                android:textColor="@color/black" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="71dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@android:drawable/checkbox_on_background" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout> />
+
